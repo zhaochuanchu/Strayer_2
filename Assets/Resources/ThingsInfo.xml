@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingsInfo xmlns="http://tempuri.org/XMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd
+C:\Users\zcc\Desktop\XMLSchema3.xsd">
+	<Thing id="a1" name="Potion of strength">
+		<detail>Use it to increase your physical strength.</detail>
+		<describe>This is not a bottle of chicken, but it is better than it.</describe>
+	</Thing>
+	<Thing id="a2" name="Incomplete map page">
+		<detail>Part of the map, after the collection of all the four pieces can open a mysterious map</detail>
+		<describe>Mysterious drawings, do not take it to do bad things yo</describe>
+	</Thing>
+	<Thing id="a3" name="Sharp and fast eyes(1)">
+		<detail>Achievement Medal pieces, collect 4 can get the "Sharp and fast eyes" achievement</detail>
+		<describe>This title only gives those who are crazy about treasure.</describe>
+	</Thing>
+	<Thing id="a4" name="Sharp and fast eyes(2)">
+		<detail>Achievement Medal pieces, collect 4 can get the "Sharp and fast eyes" achievement</detail>
+		<describe>This title only gives those who are crazy about treasure.</describe>
+	</Thing>
+	<Thing id="a5" name="Sharp and fast eyes(3)">
+		<detail>Achievement Medal pieces, collect 4 can get the "Sharp and fast eyes" achievement</detail>
+		<describe>This title only gives those who are crazy about treasure.</describe>
+	</Thing>
+	<Thing id="a6" name="Sharp and fast eyes(4)">
+		<detail>Achievement Medal pieces, collect 4 can get the "Sharp and fast eyes" achievement</detail>
+		<describe>This title only gives those who are crazy about treasure.</describe>
+	</Thing>
+	<Thing id="a7" name="Treasure hunt(1)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Treasure hunt" achievement.</detail>
+		<describe>Sparkling jewels,who knows what will happen if you found them all out.</describe>
+	</Thing>
+	<Thing id="a8" name="Treasure hunt(2)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Treasure hunt" achievement.</detail>
+		<describe>Sparkling jewels,who knows what will happen if you found them all out.</describe>
+	</Thing>
+	<Thing id="a9" name="Treasure hunt(3)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Treasure hunt" achievement.</detail>
+		<describe>Sparkling jewels,who knows what will happen if you found them all out.</describe>
+	</Thing>
+	<Thing id="a10" name="Treasure hunt(4)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Treasure hunt" achievement.</detail>
+		<describe>Sparkling jewels,who knows what will happen if you found them all out.</describe>
+	</Thing>
+	<Thing id="a11" name="Treasure hunt(5)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Treasure hunt" achievement.</detail>
+		<describe>Sparkling jewels,who knows what will happen if you found them all out.</describe>
+	</Thing>
+	<Thing id="a12" name="Truth behind(1)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Truth behind" achievement.</detail>
+		<describe>You find them behind something.</describe>
+	</Thing>
+	<Thing id="a13" name="Truth behind(2)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Truth behind" achievement.</detail>
+		<describe>You find them behind something.</describe>
+	</Thing>
+	<Thing id="a14" name="Truth behind(3)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Truth behind" achievement.</detail>
+		<describe>You find them behind something.</describe>
+	</Thing>
+	<Thing id="a15" name="Truth behind(4)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Truth behind" achievement.</detail>
+		<describe>You find them behind something.</describe>
+	</Thing>
+	<Thing id="a16" name="Truth behind(5)">
+		<detail>Medal of achievement fragments, collected all 5 can get "Truth behind" achievement.</detail>
+		<describe>You find them behind something.</describe>
+	</Thing>
+	<Thing id="" name="">
+		<detail></detail>
+		<describe></describe>
+	</Thing>
+	
+</ThingsInfo>
