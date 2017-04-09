@@ -10,8 +10,6 @@ public class ThingContral : HighlighterController {
 
     protected override void Start() {
         base.Start();
-        GetComponent<Highlighter>().ConstantOn(Color.blue);
-
     }
 
     protected virtual void OnTriggerEnter(Collider collider) {
@@ -19,6 +17,7 @@ public class ThingContral : HighlighterController {
             collider.gameObject.GetComponent<PlayerPickUpSystem>().WaitingThingObject = this.gameObject;
             collider.gameObject.GetComponent<PlayerStateContral>().GamingCanvas.
                 GetComponent<TipSystem>().Show(TipPickUp);
+            GetComponent<Highlighter>().ConstantOn(Color.blue);
         }
     }
     protected virtual void OnTriggerExit(Collider collider) {
@@ -26,6 +25,7 @@ public class ThingContral : HighlighterController {
             collider.gameObject.GetComponent<PlayerPickUpSystem>().WaitingThingObject = null;
             collider.gameObject.GetComponent<PlayerStateContral>().GamingCanvas.
                 GetComponent<TipSystem>().Back();
+            GetComponent<Highlighter>().ConstantOff();
         }
     }
 

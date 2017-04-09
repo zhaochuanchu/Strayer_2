@@ -4,7 +4,7 @@ using UnityEngine;
 using DG.Tweening;
 
 [DisallowMultipleComponent]
-public class TaskSystem : MonoBehaviour,IKey {
+public class TaskSystem : MonoBehaviour,IKey{
 
     [SerializeField]private KeyCode keyCode = KeyCode.T;
 

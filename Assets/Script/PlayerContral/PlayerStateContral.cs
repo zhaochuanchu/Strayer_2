@@ -7,13 +7,14 @@ using UnityEngine;
 /// </summary>
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(CharacterController))]
-public class PlayerStateContral : MonoBehaviour {
+public class PlayerStateContral : MonoBehaviour ,IBanedScripts{
 
     public static PlayerStateContral instance;
     public Camera MainCamera;
     public GameObject GamingCanvas;
-    public Animator playerAnimator;
-    public CharacterController playerCharacterController;
+
+    [HideInInspector]public Animator playerAnimator;
+    [HideInInspector]public CharacterController playerCharacterController;
 
 
     protected virtual void Awake() {
@@ -27,9 +28,7 @@ public class PlayerStateContral : MonoBehaviour {
     }
 
     protected virtual void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            Application.Quit();
-        }
+
     }
 
 

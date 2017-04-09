@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// 移动控制模块
 /// </summary>
-public class PlayerMoveSystem : MonoBehaviour {
+public class PlayerMoveSystem : MonoBehaviour,IBanedScripts {
 
     private Animator playerAnimator;
     private CharacterController playerCharacterContraller;

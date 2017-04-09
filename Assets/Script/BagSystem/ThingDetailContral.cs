@@ -21,7 +21,6 @@ public class ThingDetailContral : MonoBehaviour {
         DetailText.GetComponent<Text>().text = info.Detail;
         AmountText.GetComponent<Text>().text = "Num:"+count;
         DescribeText.GetComponent<Text>().text = info.Describe;
-
     }
 
 }

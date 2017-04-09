@@ -62,5 +62,14 @@ public class Test1 : MonoBehaviour {
         print(BagSystem.instance.NextItem);
     }
 
-
+    [ContextMenu("ForeachComponent")]
+    public void ForeachComponent() {
+        foreach(MonoBehaviour m in GetComponents<MonoBehaviour>()) {
+            if(m as IBanedScripts != null) {
+                Debug.Log("true");
+                return;
+            }
+        }
+        Debug.Log("false");
+    }
 }

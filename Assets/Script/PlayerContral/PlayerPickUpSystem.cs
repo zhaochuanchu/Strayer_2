@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class PlayerPickUpSystem : MonoBehaviour, IKey {
+public class PlayerPickUpSystem : MonoBehaviour, IKey,IBanedScripts {
 
     [SerializeField]private KeyCode keycode = KeyCode.E;
     //public event Action<int> PickUpSomething;//不适合用事件机制

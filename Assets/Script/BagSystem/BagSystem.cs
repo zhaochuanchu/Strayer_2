@@ -29,7 +29,7 @@ public class BagSystem : MonoBehaviour,IKey {
                 if (child.transform.childCount == 0) {
                     return child.gameObject;
                 }
-            }
+            }  
             throw new System.Exception("背包已满");
         }
     }
