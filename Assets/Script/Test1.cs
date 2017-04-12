@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using HighlightingSystem;
+using DG.Tweening;
 
 public class Test1 : MonoBehaviour {
 
-    protected virtual void Awake() {
-    }
+    public KeyCode keyCode = KeyCode.J;
 
+    protected virtual void Awake() {
+
+    }
 	protected virtual void Update () {
-        
+        if (Input.GetKeyDown(keyCode)) {
+            TestDOTween();
+        }
 	}
 
     [ContextMenu("ConnectWorkAndTakeQuery")]
@@ -72,4 +77,10 @@ public class Test1 : MonoBehaviour {
         }
         Debug.Log("false");
     }
+
+    [ContextMenu("DOTweenTest")]
+    private void TestDOTween() {
+        this.transform.DOMove(new Vector3(2, 0, 0), 2.0f).SetRelative();
+    }
+
 }

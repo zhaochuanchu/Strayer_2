@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 
 /// <summary>
@@ -15,13 +16,13 @@ public class CanvasConvertSystem : MonoBehaviour {
 
     public GameObject GamingCanvas;
     public GameObject PauseCanvas;
-    [Tooltip("预先在list中的GameObject上实现IBanedScripts的脚本会在游戏暂停时ban掉")]
+    [Tooltip("预先在list中的GameObject上实现IBanedScripts接口的脚本会在游戏暂停时ban掉")]
     [SerializeField]private List<GameObject> banedScriptsInGameObject;
     private List<MonoBehaviour> BanedScripts=new List<MonoBehaviour>();
     [SerializeField]private KeyCode EscapeKeyCode = KeyCode.Escape;
 
     protected virtual void Awake() {
-        if (instance != null)
+        if (instance == null)
             instance = this;
         else print("单例模式破坏");
     }
